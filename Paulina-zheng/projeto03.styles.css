@@ -1,0 +1,16 @@
+#link{
+    font-size: 15px;
+    padding:20px;
+    margin:20px;
+    width:100px;
+    height:20px;
+    border:solid 4px rgb(197, 44, 44);
+    border-radius: 20px;
+    color:rgb(97, 0, 0);
+    box-shadow: 10px 10px rgb(253, 131, 87);
+    background-color: rgb(255, 215, 203);
+    nav-down: 10px;
+    position:fixed;
+    bottom:0%;
+    left:90%;
+}

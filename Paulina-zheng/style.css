@@ -1,0 +1,26 @@
+p{
+    color: green;
+    background-color: green;
+    font-size:18pt;
+}
+#p1{
+    background-color: purple;
+}
+
+#p2{
+    background-color: orange;
+}
+
+.pb{
+   color:white;
+    background-color: black;
+}
+
+a{
+    color: chocolate;
+}
+
+a:hover{
+    background-color:blueviolet;
+    
+}
