@@ -1,0 +1,52 @@
+#A{
+    font-size: 1px;
+    padding:10px ;
+    width: 100px;
+    height:20px ;
+    border: solid 3px rgb;
+    border-radius:2px ;
+    color:white;
+    background-color:rgba(90, 32, 145, 0.849);
+    font-size:14px;
+    margin:0px;
+    margin-left: 730px;
+    margin-top: 0px;
+}
+#B{
+    font-size: 1px;
+    padding:10px ;
+    width: 100px;
+    height:20px ;
+    border: solid 3px rgb;
+    border-radius:2px ;
+    color:white;
+    background-color:rgba(90, 32, 145, 0.849);
+    font-size:18px;
+    margin:0;
+    margin-left:730px;
+}
+#C{
+    font-size: 1px;
+    padding:10px ;
+    width: 100px;
+    height:20px ;
+    border: solid 3px rgb;
+    border-radius:2px ;
+    color:white;
+    background-color:rgba(90, 32, 145, 0.849);
+    font-size:20px;
+    margin:0;
+    margin-left:730px;
+}
+
+#D{
+    flex-flow:column-reverse;
+    margin-left:900px;
+    margin-top:-400px;
+}
+
+#E{
+    flex-flow:column-reverse;
+    margin-left:1100px;
+    margin-top:-500px;
+}
