@@ -1,0 +1,197 @@
+#C{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:darkgreen;
+    font-weight:bolder;
+}
+.box{
+    width:100%;
+    height:100px;
+    background-color:bisque;
+    border:2px solid darkblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#img{
+    position:relative;
+    width:80px;
+    top:-92px;
+    left:10px;
+}
+#java{
+    position:relative;
+    width:85px;
+    top:-95px;
+    left:1075px;
+}
+.menu{
+    font-size:8px;
+    color:indigo;
+    font-weight:bold;
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    justify-content:center;
+    margin-top:-40px;
+}
+.box1{
+    width:100%;
+    height:10px;
+    background-color:lightskyblue;
+    margin-top:-90px;
+}
+#intro{
+    font-weight:bold;
+    font-size:17px;
+    display:flex;
+    justify-content:center;
+}
+#c{
+    color:indigo;
+    font-size:11px;
+    display:flex;
+    justify-content:center;
+}
+#Java{
+    color:indigo;
+    font-size:11px;
+}
+#foi{
+    color:indigo;
+    font-size:11px;
+}
+#livro{
+    display:flex;
+    justify-content:center;
+    font-size:17px;
+}
+#a{
+    display:flex;
+    justify-content:center;
+    font-size:17px;
+    font-weight:bold;
+}
+#contato{
+    font-size:17px;
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+}
+.tabela{
+    border:4px dashed red;
+    margin:auto;
+    width:auto;
+}
+.tabela th,
+.tabela td{
+    border:2px solid red;
+    padding:10px;align-items:baseline;
+    text-align:center;
+}
+.tabela th{
+    color:red;
+}
+.h{
+    color:darkred;
+    font-weight:bold;
+    list-style:none;
+    font-size:13px;
+    display:flex;
+    justify-content:center;
+}
+.menu2{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.box2{
+    background-color:yellow;
+    width:500px;
+    margin:auto;
+    text-align:center;
+    color:darkred;
+}
+.menu li{
+    margin-bottom:10px;
+    display:flex;
+    justify-content:space-between;
+}
+.menu{
+    list-style:disc;
+    padding-left:20px;
+}
+.menu a{
+    color:black;
+    text-decoration:none;
+
+}
+#l1{
+    position:relative;
+    width:112px;
+    top:10px;
+    left:10px;
+    margin-left:425px;
+    gap:30px;
+}
+#l2{
+    position:relative;
+    width:135px;
+    top:10px;
+    left:10px;
+     gap:30px;
+}
+#l3{
+    position:relative;
+    width:115px;
+    top:10px;
+    left:10px;
+     gap:30px;
+}
+.media{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+.media video{
+    width:300px;
+
+}
+.media iframe{
+    width:300px;
+    height:200px;
+}
+#D{
+    display:flex;
+    justify-content:center;
+    font-size:15px;
+}
+#F{
+    display:flex;
+    justify-content:center;
+    font-size:15px;
+}
+.box3{
+   background-color:bisque;
+    width:100%;
+    height:50px;
+    margin:auto;
+    text-align:center;
+}
+#H{
+   position:relative;
+    width:43px;
+    top:-60px;
+    left:-380px;
+}
+#r{
+   position:relative;
+    width:30px;
+    top:-60px;
+    left:380px;
+}
+body{
+    background-color:lightgray;
+}
