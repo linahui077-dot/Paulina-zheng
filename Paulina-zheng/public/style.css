@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-family: Arial;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    color:black;
+}
