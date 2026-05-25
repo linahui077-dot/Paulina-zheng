@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Carros</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <h1>Lista de Carros</h1>
+
+    <h3>Total de caroos:<%=carros.length%></h3>
+
+    <form action="/adicionar" method="POST">
+
+        <input type="text" name="marca" placeholder="Marca">
+
+        <input type="text" name="modelo" placeholder="Modelo">
+
+        <input type="number" name="ano" placeholder="Ano">
+
+        <input type="number" name="quantidade" placeholder="Quantidade">
+
+        <button type="submit">Adicionar</button>
+
+    </form>
+
+    <% carros.forEach(function(carro, index){ %>
+
+    <div class="card">
+
+        <h2><%= carro.marca %></h2>
+        
+
+        <p>Modelo:<%= carro.modelo%></p>
+
+        <p>Ano: <%= carro.ano %></p>
+
+        <% if(carro.quantidade == 0){ %>
+
+         <p style="color:red;">Esgotado</p >
+
+        <% } else if(carro.quantidade <= 2){ %>
+
+         <p style="color:orange;">
+           Quantidade baixa: <%= carro.quantidade %>
+         </p >
+
+<% } else { %>
+
+    <p>Quantidade: <%= carro.quantidade %></p >
+
+<% } %>
+
+        
+
+        <a href="/deletar/<%=index%>">
+
+            <button>Deletar</button>
+
+        </a >
+
+        <a href="/vender/<%= index %>">
+
+            <button>Vender</button>
+
+        </a >
+
+    </div>
+
+    <% }) %>
+
+</body>
+
+</html>
